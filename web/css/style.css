@@ -1,0 +1,45 @@
+.buscar{
+    width: 500px;
+}
+
+#foto{
+    width:270px; 
+    height:100px;
+}
+#fotolog{
+    /*width:270px; */
+    height:100px;
+    display: block;
+    margin-left: 175%;
+    margin-right: auto;
+    width: 200%;
+}
+
+.boton_personalizado{
+    /*text-decoration: none;*/
+    width:auto; 
+    padding:20px;
+    margin-left:3px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    background-color: dimgray;
+    border-radius: 8px;
+}
+.boton_personalizado:hover{
+    color: dimgray;
+    background-color: #424242;
+    text-decoration: none;
+}
+
+#posicion{
+    width: 300px;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
