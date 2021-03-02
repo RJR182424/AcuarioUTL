@@ -2,7 +2,7 @@ package edu.utl.dsm501.acuario.modelo;
 
 
 public class peces {
-    private Integer IdPeces;
+    private int IdPeces;
     private String nombre;
     private String especie;
     private float precio;
@@ -13,7 +13,7 @@ public class peces {
         
     }
 
-    public peces(Integer IdPeces, String nombre, String especie, float precio, float calificacion, String foto) {
+    public peces(int IdPeces, String nombre, String especie, float precio, float calificacion, String foto) {
         this.IdPeces = IdPeces;
         this.nombre = nombre;
         this.especie = especie;
@@ -22,11 +22,11 @@ public class peces {
         this.foto = foto;
     }
 
-    public Integer getIdPeces() {
+    public int getIdPeces() {
         return IdPeces;
     }
 
-    public void setIdPeces(Integer IdPeces) {
+    public void setIdPeces(int IdPeces) {
         this.IdPeces = IdPeces;
     }
 
